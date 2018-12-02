@@ -396,6 +396,7 @@ textarea {
 .header {
   padding: 40px 0; }
   .header__container {
+    min-width: 980px;
     max-width: 980px;
     margin: 0 auto; }
   .header__content {
@@ -525,6 +526,7 @@ textarea {
   clear: both; }
 
 .top-info__container {
+  min-width: 980px;
   max-width: 980px;
   margin: 0 auto; }
 
@@ -583,6 +585,7 @@ textarea {
     margin-right: 13px; }
 
 .main__container {
+  min-width: 980px;
   max-width: 980px;
   margin: 0 auto; }
 
@@ -609,8 +612,6 @@ textarea {
     margin: 0;
     list-style: none; }
   .sidebar__item {
-    padding: 13px 0;
-    position: relative;
     border-bottom: 1px solid #ecebec;
     outline: none; }
   .sidebar__link {
@@ -618,10 +619,13 @@ textarea {
     color: #606061;
     text-decoration: none;
     transition: all .2s ease;
-    position: relative;
-    left: 20px; }
+    display: block;
+    padding: 13px 20px; }
     .sidebar__link:hover {
       color: #ae3b44; }
+    .sidebar__link:active {
+      background-color: #ae3b44;
+      color: #fff; }
 
 .sidebar__fa {
   position: relative;
@@ -757,6 +761,7 @@ textarea {
 .clients {
   padding: 20px 0; }
   .clients__container {
+    min-width: 980px;
     max-width: 980px;
     margin: 0 auto; }
   .clients__content {
@@ -826,9 +831,12 @@ textarea {
   .sidebar__label:hover {
     color: #ae3b44; }
   .sidebar__label:active {
-    color: #ae3b44; }
-    .sidebar__label:active .sidebar__item--acard {
-      background-color: #ae3b44; }
+    color: #fff;
+    background-color: #ae3b44; }
+    .sidebar__label:active .sidebar__fa--acard {
+      color: #fff; }
+    .sidebar__label:active .sidebar__fa--deep {
+      color: #fff; }
 
 .sidebar__check {
   display: none; }
@@ -882,6 +890,7 @@ textarea {
   border-top: 1px solid #dcdcdc;
   background-color: #f8f8f8; }
   .footer__container {
+    min-width: 980px;
     max-width: 980px;
     margin: 0 auto; }
   .footer__lists {
