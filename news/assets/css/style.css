@@ -426,7 +426,7 @@ textarea {
   .menu__item--active:hover .drop-list {
     display: block; }
   .menu__item:last-child {
-    margin-right: 35px; }
+    margin-right: 45px; }
 
 .menu__link {
   text-decoration: none;
@@ -679,7 +679,8 @@ textarea {
     font-size: 12px;
     color: #3c3c3c;
     margin: 25px 0;
-    text-align: justify; }
+    text-align: justify;
+    line-height: 1.55; }
     .content__text--margin {
       margin: 0; }
       .content__text--margin:last-child {
