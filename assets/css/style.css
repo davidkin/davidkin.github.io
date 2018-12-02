@@ -480,8 +480,7 @@ textarea {
   .header__content {
     background-color: #87509c;
     color: #fff;
-    padding: 135px 0;
-    min-height: 100vh; }
+    padding: 135px 0; }
 
 .menu {
   float: right;
