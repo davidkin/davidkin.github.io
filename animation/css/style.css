@@ -1,0 +1,189 @@
+@keyframes rotate1 { 
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(200px);
+    }
+    40% {
+        transform: translate(400px);
+    }
+    60% {
+        transform: translate(600px);
+    }
+    80% {
+        transform: translate(800px);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translate(0);
+    }
+} 
+
+@keyframes rotate2 { 
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(200px);
+    }
+    40% {
+        transform: translate(400px);
+    }
+    60% {
+        transform: translate(600px);
+    }
+    80% {
+        transform: translate(-200px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+} 
+
+@keyframes rotate3 { 
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(200px);
+        z-index: 3;
+
+    }
+
+    40% {
+        transform: translate(400px);
+    }
+
+    60% {
+        transform: translate(-400px);
+        z-index: -3;
+
+    }
+
+    80% {
+        transform: translate(-200px);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translate(0);
+    }
+} 
+
+@keyframes rotate4 { 
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(200px);
+        z-index: -2;
+    }
+
+    40% {
+        transform: translate(-600px);
+    }
+
+    60% {
+        transform: translate(-400px);
+        z-index: 3;
+    }
+
+    80% {
+        transform: translate(-200px);
+        z-index: 3;
+    }
+
+    100% {
+        transform: translate(0);
+    }
+} 
+
+@keyframes rotate5 { 
+    0% {
+        transform: translate(0);
+        z-index: -1;
+    }
+
+    20% {
+        transform: translate(-800px);
+        
+    }
+
+    40% {
+        transform: translate(-600px);
+        
+    }
+
+    60% {
+        transform: translate(-400px);
+        
+    }
+
+    80% {
+        transform: translate(-200px);
+        /* z-index: 2; */
+    }
+
+    100% {
+        transform: translate(0);
+        z-index: 2;
+    }
+
+} 
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease;
+    width: 1000px;
+    margin: 50px auto;
+    background-color: grey;
+    height: 360px;
+    transition: all .5s ease;
+    z-index: 2;
+}
+
+.card {
+    display: block;
+    width: 200px;
+    height: 260px;
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    margin: 10px ;
+}
+
+.card--first { 
+    background-color: orange;
+    animation: rotate1 8s ease infinite;
+} 
+
+.card--second {
+    background-color: blue;
+    animation: rotate2 8s ease infinite;
+} 
+
+.card--third {
+    background-color: yellow;
+    animation: rotate3 8s ease infinite;
+} 
+
+.card--fourth {
+    background-color: red;
+    animation: rotate4 8s ease infinite;
+}
+
+.card--fifth {
+    background-color: pink;
+    animation: rotate5 8s ease infinite;
+} 
+
+.card--six {
+    
+}
