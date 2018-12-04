@@ -3,13 +3,13 @@
         transform: translate(0) scale(0.8);
     }
     20% {
-        transform: translate(200px);
+        transform: translate(200px) scale(1.1);
     }
     40% {
         transform: translate(400px)  scale(1.1);
     }
     60% {
-        transform: translate(600px);
+        transform: translate(600px) scale(1.1);
     }
     80% {
         transform: translate(800px) scale(0.8);
@@ -23,13 +23,13 @@
 
 @keyframes rotate2 { 
     0% {
-        transform: translate(0);
+        transform: translate(0) scale(1.1);
     }
     20% {
         transform: translate(200px) scale(1.1);
     }
     40% {
-        transform: translate(400px);
+        transform: translate(400px) scale(1.1);
     }
     60% {
         transform: translate(600px) scale(0.8);
@@ -39,7 +39,7 @@
     }
 
     100% {
-        transform: translate(0);
+        transform: translate(0) scale(1.1);
     }
 } 
 
@@ -49,7 +49,7 @@
     }
 
     20% {
-        transform: translate(200px);
+        transform: translate(200px) scale(1.1);
         z-index: 3;
 
     }
@@ -65,7 +65,7 @@
     }
 
     80% {
-        transform: translate(-200px);
+        transform: translate(-200px) scale(1.1);
         z-index: 2;
     }
 
@@ -76,7 +76,7 @@
 
 @keyframes rotate4 { 
     0% {
-        transform: translate(0);
+        transform: translate(0) scale(1.1);
     }
 
     20% {
@@ -89,7 +89,7 @@
     }
 
     60% {
-        transform: translate(-400px);
+        transform: translate(-400px) scale(1.1);
         z-index: 3;
     }
 
@@ -99,7 +99,7 @@
     }
 
     100% {
-        transform: translate(0);
+        transform: translate(0) scale(1.1);
     }
 } 
 
@@ -115,7 +115,7 @@
     }
 
     40% {
-        transform: translate(-600px);
+        transform: translate(-600px) scale(1.1);
         
     }
 
@@ -125,7 +125,7 @@
     }
 
     80% {
-        transform: translate(-200px);
+        transform: translate(-200px) scale(1.1);
         /* z-index: 2; */
     }
 
@@ -160,12 +160,8 @@
     background-color: purple;
     color: #fff;
     text-align: center;
-    margin: 20px;
+    margin: 50px 20px 0;
 }
-
-/* .card:hover, .card--first, .card--second, .card--third, .card--fourth, .card--fifth{
-    animation-play-state: paused;
-} */
 
 .card--first { 
     background-color: orange;
