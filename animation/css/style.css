@@ -165,25 +165,25 @@
 
 .card--first { 
     background-color: orange;
-    animation: rotate1 8s ease infinite;
+    animation: rotate1 8s linear forwards running infinite;
 } 
 
 .card--second {
     background-color: blue;
-    animation: rotate2 8s ease infinite;
+    animation: rotate2 8s linear forwards running infinite;
 } 
 
 .card--third {
     background-color: yellow;
-    animation: rotate3 8s ease infinite;
+    animation: rotate3 8s linear forwards running infinite;
 } 
 
 .card--fourth {
     background-color: red;
-    animation: rotate4 8s ease infinite;
+    animation: rotate4 8s linear forwards running infinite;
 }
 
 .card--fifth {
     background-color: brown;
-    animation: rotate5 8s ease infinite;
+    animation: rotate5 8s linear forwards running infinite;
 } 
