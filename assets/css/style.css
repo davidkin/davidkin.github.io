@@ -520,7 +520,7 @@ textarea {
   display: none; }
 
 .services {
-  padding: 60px 0;
+  padding: 120px 0;
   background-color: #17c2a4;
   color: #fff; }
   .services__wrapper {
@@ -533,7 +533,8 @@ textarea {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .services__title:after {
       content: '';
       display: block;
@@ -546,23 +547,22 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .services__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .services__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .services__describe {
     font-size: 18px;
     color: #fff;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5;
-    max-width: 580px; }
+    max-width: 580px;
+    margin-bottom: 75px; }
     @media only screen and (max-width: 768px) {
       .services__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
 
 .services-blocks {
-  margin: 75px 0; }
+  margin: 0; }
   .services-blocks::after {
     content: "";
     display: block;
@@ -578,20 +578,21 @@ textarea {
   .services-blocks__img-block {
     width: 170px;
     height: 150px;
-    margin: auto; }
+    margin: 0 auto 40px; }
   .services-blocks__title {
     font-size: 24px;
     font-family: "TitilliumWeb-Bold", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    margin: 40px 0 15px; }
+    margin: 0 0 15px; }
   .services-blocks__text {
     margin: 0;
     font-family: "TitilliumWeb-Light", sans-serif;
-    font-size: 16px; }
+    font-size: 16px;
+    margin: auto; }
 
 .team {
-  padding: 60px 0;
+  padding: 120px 0;
   background-color: #e7f1f8;
   color: #3c4761; }
   .team__wrapper {
@@ -604,7 +605,8 @@ textarea {
     color: #3c4761;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .team__title:after {
       content: '';
       display: block;
@@ -617,22 +619,20 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .team__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .team__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .team__describe {
     font-size: 18px;
     color: #3c4761;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5; }
     @media only screen and (max-width: 768px) {
       .team__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
 
 .team-blocks {
-  margin: 75px 0; }
+  margin: 0; }
   .team-blocks::after {
     content: "";
     display: block;
@@ -648,7 +648,7 @@ textarea {
   .team-blocks__img {
     display: block;
     width: 200px;
-    margin: auto;
+    margin: 0 auto 30px;
     height: 200px;
     background-color: #878787;
     border-radius: 10em;
@@ -661,26 +661,35 @@ textarea {
     font-family: "TitilliumWeb-Bold", sans-serif;
     text-transform: uppercase;
     color: #27283d;
-    margin: 30px 0 0; }
+    margin: 0; }
   .team-blocks__span {
-    color: #55c2e9; }
+    display: block;
+    color: #55c2e9;
+    margin-bottom: 30px; }
   .team-blocks__text {
-    margin: 30px 0 25px;
+    margin: 0 0 30px;
     font-family: "TitilliumWeb-Light", sans-serif;
     font-size: 16px; }
   .team-blocks__icon-block {
     width: 150px;
-    margin: 30px auto; }
+    margin: 0 auto;
+    list-style: none;
+    padding: 0; }
     .team-blocks__icon-block::after {
       content: "";
       display: block;
       clear: both; }
     .team-blocks__icon-block--short {
       width: 110px; }
+  .team-blocks__icon-item {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px; }
+    .team-blocks__icon-item:last-child {
+      margin-right: 0; }
   .team-blocks__icon {
     display: block;
-    height: 30px;
-    width: 30px;
     background-color: #bdd1df;
     border-radius: 10em;
     -webkit-border-radius: 10em;
@@ -688,14 +697,10 @@ textarea {
     -ms-border-radius: 10em;
     -o-border-radius: 10em;
     line-height: 1.9;
-    color: #fff;
-    float: left;
-    margin-right: 10px; }
-    .team-blocks__icon:last-child {
-      margin-right: 0; }
+    color: #fff; }
 
 .skills {
-  padding: 60px 0;
+  padding: 120px 0;
   background-color: #fff;
   color: #3c4761; }
   .skills__wrapper {
@@ -708,7 +713,8 @@ textarea {
     color: #3c4761;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .skills__title:after {
       content: '';
       display: block;
@@ -721,23 +727,21 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .skills__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .skills__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .skills__describe {
     font-size: 18px;
     color: #3c4761;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5;
     max-width: 580px; }
     @media only screen and (max-width: 768px) {
       .skills__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
 
 .skill-block {
-  margin: 75px 0; }
+  margin: 0; }
   .skill-block::after {
     content: "";
     display: block;
@@ -755,7 +759,7 @@ textarea {
     font-family: "TitilliumWeb-Bold", sans-serif;
     text-transform: uppercase;
     color: #27283d;
-    margin: 30px 0;
+    margin: 0;
     text-align: center; }
   .skill-block__chart {
     position: relative;
@@ -764,7 +768,7 @@ textarea {
     text-align: center;
     font-family: "TitilliumWeb-Light", sans-serif;
     width: 190px;
-    margin: auto; }
+    margin: 0 auto 30px; }
   .skill-block__figcaption {
     width: 185px;
     height: 185px;
@@ -815,7 +819,8 @@ textarea {
     color: #393939;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .portfolio__title:after {
       content: '';
       display: block;
@@ -828,20 +833,19 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .portfolio__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .portfolio__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .portfolio__describe {
     font-size: 18px;
     color: #60584a;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5;
-    max-width: 580px; }
+    max-width: 580px;
+    margin-bottom: 40px; }
     @media only screen and (max-width: 768px) {
       .portfolio__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
   .portfolio__button {
     border-radius: 5px;
     padding: 15px 25px;
@@ -871,7 +875,7 @@ textarea {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin: 45px 0;
+  margin: 0 0 60px;
   text-align: center; }
   .pagination__item {
     display: inline-block;
@@ -897,7 +901,7 @@ textarea {
       background-color: #fff; }
 
 .portf-blocks {
-  margin: 70px 0; }
+  margin: 0 0 80px; }
   .portf-blocks::after {
     content: "";
     display: block;
@@ -910,13 +914,16 @@ textarea {
     @media only screen and (max-width: 768px) {
       .portf-blocks__item {
         width: 100%; } }
+    .portf-blocks__item--bottom {
+      margin-bottom: 60px; }
   .portf-blocks__img-block {
     height: 310px;
     max-width: 540px;
     margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center; }
+    background-position: center;
+    margin-bottom: 30px; }
     .portf-blocks__img-block--first {
       background-image: url(../img/portfolio/first.png); }
     .portf-blocks__img-block--second {
@@ -930,7 +937,7 @@ textarea {
     color: #393939;
     font-size: 18px;
     text-align: center;
-    margin-top: 30px; }
+    margin: 0; }
 
 .about-us {
   padding: 120px 0;
@@ -946,7 +953,8 @@ textarea {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .about-us__title:after {
       content: '';
       display: block;
@@ -959,22 +967,20 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .about-us__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .about-us__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .about-us__describe {
     font-size: 18px;
     color: #fff;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5; }
     @media only screen and (max-width: 768px) {
       .about-us__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
 
 .about-block {
-  margin: 70px 0 50px; }
+  margin: 0; }
   .about-block::after {
     content: "";
     display: block;
@@ -1032,7 +1038,8 @@ textarea {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 0; }
     .connect__title:after {
       content: '';
       display: block;
@@ -1045,23 +1052,21 @@ textarea {
         font-size: 30px; } }
     @media only screen and (max-width: 480px) {
       .connect__title {
-        font-size: 20px; } }
-    @media only screen and (max-width: 320px) {
-      .connect__title {
-        font-size: 16px; } }
+        font-size: 25px;
+        line-height: 1.1; } }
   .connect__describe {
     font-size: 18px;
     color: #fff;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     line-height: 1.5; }
     @media only screen and (max-width: 768px) {
       .connect__describe {
-        font-size: 15px; } }
+        font-size: 20px; } }
 
 .form {
   max-width: 850px;
-  margin: 75px auto; }
+  margin: 0 auto; }
   .form__info {
     margin: 0 auto 25px; }
     .form__info::after {
@@ -1091,6 +1096,8 @@ textarea {
     color: #fff;
     padding: 20px 25px;
     resize: none; }
+  .form__text {
+    margin-bottom: 60px; }
   .form__button {
     border-radius: 5px;
     padding: 15px 25px;
@@ -1107,8 +1114,7 @@ textarea {
     text-transform: uppercase;
     font-family: "TitilliumWeb-SemiBold", sans-serif;
     border: none;
-    cursor: pointer;
-    margin-top: 60px; }
+    cursor: pointer; }
     .form__button:hover {
       background-color: #27b7e6; }
     .form__button:active {
@@ -1124,19 +1130,18 @@ textarea {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
-    padding: 0 70px; }
+    padding: 0 80px; }
   .footer__list {
     padding: 0;
     margin: 0;
     list-style: none;
-    max-width: 950px;
-    margin: auto; }
+    text-align: center; }
     .footer__list::after {
       content: "";
       display: block;
       clear: both; }
   .footer__item {
-    float: left;
+    display: inline-block;
     margin-right: 60px; }
     .footer__item--active .footer__link {
       color: #30bae7; }
@@ -1228,16 +1233,12 @@ textarea {
       width: 100%; } }
 
 @media only screen and (max-width: 1100px) {
-  .footer__list {
-    max-width: 800px; }
   .footer__item {
     margin-right: 35px; } }
 
 @media only screen and (max-width: 1075px) {
   .services-blocks__title {
     font-size: 20px; }
-  .services-blocks__text {
-    font-size: 15px; }
   .team-blocks__text {
     font-size: 19px; }
   .skill-block__title {
@@ -1245,13 +1246,12 @@ textarea {
   .about-block__block-img {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 100px; }
+    width: 150px;
+    height: 150px; }
   .about-block__info {
     margin: 20px auto 0; }
   .about-block__text {
     text-align: center;
-    margin: 5px auto 0;
     font-size: 18px; }
   .about-block__name {
     text-align: center;
@@ -1260,8 +1260,6 @@ textarea {
     text-align: center; }
   .about-block__item--margin-bottom {
     margin-bottom: 50px; }
-  .footer__list {
-    max-width: 700px; }
   .footer__link {
     font-size: 20px; } }
 
@@ -1271,7 +1269,7 @@ textarea {
     text-align: center;
     padding: 0 35px;
     float: left;
-    margin-bottom: 20px; } }
+    margin-bottom: 40px; } }
   @media only screen and (max-width: 1051px) and (max-width: 768px) {
     .team-blocks__item {
       width: 100%; } }
@@ -1283,6 +1281,8 @@ textarea {
     font-size: 30px; }
   .menu {
     top: 0; }
+  .services-blocks__text {
+    font-size: 17px; }
   .menu__block {
     display: none;
     position: absolute;
@@ -1314,20 +1314,18 @@ textarea {
     text-align: center;
     padding: 0 50px;
     float: left;
-    margin-bottom: 20px; } }
+    margin-bottom: 40px; } }
   @media only screen and (max-width: 992px) and (max-width: 768px) {
     .services-blocks__item {
       width: 100%; } }
 
 @media only screen and (max-width: 992px) {
-  .services-blocks__title {
-    margin: 10px 0; }
   .skill-block__item {
     width: 50%;
     text-align: center;
     padding: 0 40px;
     float: left;
-    margin-bottom: 20px; } }
+    margin-bottom: 40px; } }
   @media only screen and (max-width: 992px) and (max-width: 768px) {
     .skill-block__item {
       width: 100%; } }
@@ -1339,39 +1337,99 @@ textarea {
     margin: 0 0 10px 0; }
   .portf-blocks__img-block {
     height: 245px; }
-  .portf-blocks__title {
-    margin: 15px 0 30px; } }
+  .services-blocks__img-block {
+    margin-bottom: 20px; }
+  .services-blocks__item {
+    margin-bottom: 50px; }
+  .services-blocks__text {
+    font-size: 15px; } }
 
 @media only screen and (max-width: 768px) {
+  .services, .team, .skills,
+  .portfolio, .about-us, .connect,
+  .footer {
+    padding: 65px 0; }
   .team-blocks {
     margin: 50px 0; }
   .header__title {
-    font-size: 25px; }
+    font-size: 30px; }
   .skill-block {
     margin: 50px 0; }
+  .portf-blocks__title {
+    font-size: 20px; }
   .about-us {
     padding: 70px 0; }
   .about-block__item {
     margin-bottom: 30px; }
-  .footer__list {
-    max-width: 485px; }
   .footer__item {
     margin-right: 15px; }
-  .footer__link {
-    font-size: 15px; }
   .header__content {
-    padding: 60px 0; } }
+    padding: 60px 0; }
+  .services-blocks__title {
+    font-size: 30px; }
+  .services-blocks__text {
+    font-size: 25px; }
+  .team-blocks__title {
+    font-size: 30px; }
+  .team-blocks__span {
+    font-size: 20px; }
+  .team-blocks__text {
+    font-size: 25px; }
+  .skill-block__item {
+    width: 50%; }
+  .portf-blocks__item {
+    width: 50%; }
+  .about-block__block-img {
+    width: 200px;
+    height: 200px; }
+  .about-block__text {
+    font-size: 25px; }
+  .about-block__name {
+    font-size: 30px; }
+  .about-block__span {
+    font-size: 20px; }
+  .footer__link {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 700px) {
+  .portf-blocks__item {
+    width: 100%;
+    margin-bottom: 60px; }
+  .portf-blocks__title {
+    font-size: 25px; }
+  .portf-blocks {
+    margin-bottom: 40px; } }
+
+@media only screen and (max-width: 565px) {
+  .header__title {
+    font-size: 25px; }
+  .skill-block__item {
+    width: 100%;
+    margin-bottom: 40px; }
+  .skill-block__title {
+    font-size: 25px; } }
 
 @media only screen and (max-width: 480px) {
   .pagination__item {
-    margin: 0 0 10px;
-    display: block; }
+    margin: 0 0 10px; }
   .pagination__link {
     margin: auto; }
   .connect, .portfolio {
     padding: 40px 0; }
   .header__logo {
-    left: 0; } }
+    left: 0; }
+  .services-blocks__text {
+    font-size: 20px; }
+  .team-blocks__text {
+    font-size: 20px; }
+  .team-blocks__title {
+    font-size: 25px; }
+  .portf-blocks__title {
+    font-size: 20px; }
+  .about-block__text {
+    font-size: 20px; }
+  .footer__wrapper {
+    padding: 0 20px; } }
 
 @media only screen and (max-width: 320px) {
   .portf-blocks__img-block {
