@@ -460,11 +460,10 @@ textarea {
     background-color: #eb7d4b;
     color: #fff;
     position: relative;
-    display: block;
+    display: inline-block;
     box-shadow: 0px 5px 0px 0px #c86a40;
     width: 260px;
     text-align: center;
-    margin: auto;
     text-transform: uppercase;
     font-family: "TitilliumWeb-SemiBold", sans-serif;
     border: none;
@@ -854,11 +853,10 @@ textarea {
     background-color: #17c2a4;
     color: #fff;
     position: relative;
-    display: block;
+    display: inline-block;
     box-shadow: 0px 5px 0px 0px #14a58c;
     width: 260px;
     text-align: center;
-    margin: auto;
     text-transform: uppercase;
     font-family: "TitilliumWeb-SemiBold", sans-serif;
     border: none;
@@ -1106,11 +1104,10 @@ textarea {
     background-color: #30bae7;
     color: #fff;
     position: relative;
-    display: block;
+    display: inline-block;
     box-shadow: 0px 5px 0px 0px #299ec5;
     width: 260px;
     text-align: center;
-    margin: auto;
     text-transform: uppercase;
     font-family: "TitilliumWeb-SemiBold", sans-serif;
     border: none;
@@ -1122,6 +1119,9 @@ textarea {
           transform: translate(0px, 5px);
       -webkit-transform: translate(0px, 5px);
       box-shadow: 0px 1px 0px 0px #299ec5; }
+
+.btn-block {
+  text-align: center; }
 
 .footer {
   background-color: #344b8e;
